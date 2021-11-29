@@ -1,10 +1,11 @@
-//EX4
+//EX5
 
-function ex4(r){
-
+function vocals (str) {
+    const count = str.match(/[aeiou]/gi).length;
+    return count;
 }
-console.log(r)
-ex4('Ruben');
-
+var paraula = 'esternocleidomastoideo';
+const result = vocals(paraula);
+console.log(result);
 
 
