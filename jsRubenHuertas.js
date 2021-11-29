@@ -1,4 +1,10 @@
-//EX1
+//EX2
 
-var nomCognom = ('Ruben Huertas Gonzalez')
-console.log(nomCognom)
+function fnum ( num1 = 11 ) {
+    console.log (typeof num1)
+}
+fnum();
+
+
+
+
