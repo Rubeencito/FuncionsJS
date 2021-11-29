@@ -1,10 +1,10 @@
-//EX3
+//EX4
 
-function fecha(){
-    const fechaactual = new Date()
-    console.log(fechaactual)
+function ex4(r){
+
 }
-fecha();
+console.log(r)
+ex4('Ruben');
 
 
 
