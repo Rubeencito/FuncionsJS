@@ -1,10 +1,10 @@
-//EX2
+//EX3
 
-function fnum ( num1 = 11 ) {
-    console.log (typeof num1)
+function fecha(){
+    const fechaactual = new Date()
+    console.log(fechaactual)
 }
-fnum();
-
+fecha();
 
 
 
