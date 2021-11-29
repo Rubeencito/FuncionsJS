@@ -1,11 +1,9 @@
-//EX5
+//EX6
 
-function vocals (str) {
-    const count = str.match(/[aeiou]/gi).length;
-    return count;
+function ex6(a,b,c=11){
+    console.log('El resultat es: ' + (a + b + c)) 
 }
-var paraula = 'esternocleidomastoideo';
-const result = vocals(paraula);
-console.log(result);
+
+ex6(7,6);
 
 
