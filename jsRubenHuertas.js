@@ -1,7 +1,9 @@
-//EX11
+//EX12
 
-var arrel = a => Math.sqrt(a).toFixed(2)
-console.log(arrel(11.69))
+var nom = a => a.toLowerCase()
+console.log(nom('Rubenciito pito'))
+
+
 
     
 
