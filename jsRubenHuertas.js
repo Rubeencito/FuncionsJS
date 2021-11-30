@@ -1,7 +1,15 @@
-//EX12
+//EX13
 
-var nom = a => a.toLowerCase()
-console.log(nom('Rubenciito pito'))
+var valor = (numero1,numero2) => {
+
+    if (numero1!=null && numero2==null)
+        return numero1
+    else if (numero1==null && numero2!=null)
+        return numero2
+    else if (numero1!=null && numero2!=null)
+        return [numero1, numero2]
+}   
+    console.log(valor(40,null))
 
 
 
