@@ -1,15 +1,16 @@
-//EX13
+//EX14
 
-var valor = (numero1,numero2) => {
+var posicio = (numero1,numero2) => {
+    return (numero1.length-numero1.indexOf(numero2))
+}
+console.log(posicio('Hola magrada el formatge','en'));
 
-    if (numero1!=null && numero2==null)
-        return numero1
-    else if (numero1==null && numero2!=null)
-        return numero2
-    else if (numero1!=null && numero2!=null)
-        return [numero1, numero2]
-}   
-    console.log(valor(40,null))
+var dividir = (numero1,numero2) => {
+    return numero2.substr(numero1,numero2.length)
+}
+console.log(dividir(posicio('Hola Adria','en'),'Buenas noches'))
+
+
 
 
 
