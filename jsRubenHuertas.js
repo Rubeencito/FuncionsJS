@@ -1,9 +1,8 @@
-//EX6
+//EX8
 
-function ex6(a,b,c=11){
-    console.log('El resultat es: ' + (a + b + c)) 
+function num (numero1, numero2){
+    if (numero1 == 30 || numero2 == 30 || numero1+numero2 == 30){
+        return true
+    }
 }
-
-ex6(7,6);
-
-
+console.log(num(30,15))
