@@ -1,15 +1,10 @@
-//EX14
+//EX15
 
-var posicio = (numero1,numero2) => {
-    return (numero1.length-numero1.indexOf(numero2))
-}
-console.log(posicio('Hola magrada el formatge','en'));
+var numero1 = (x) => x + x + x
+console.log(numero1(20))
 
-var dividir = (numero1,numero2) => {
-    return numero2.substr(numero1,numero2.length)
-}
-console.log(dividir(posicio('Hola Adria','en'),'Buenas noches'))
-
+var numero2 = (p, n, r, t) => p * Math.pow(1 + (r/n), n * t)
+console.log(numero2(11, 30, 45, 7))
 
 
 
